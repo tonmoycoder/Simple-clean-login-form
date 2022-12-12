@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap');
+
+.or-grid {
+    grid-template-columns: 1fr 35px 1fr;
+}
+
+.font-fam {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p,.playfair{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.02rem;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+::placeholder{
+    font-family: 'Playfair Display', serif;
+}
+
+input{
+    font-family: 'Playfair Display', serif;
+}
+
+.register {
+    white-space: nowrap;
+    position: absolute;
+    right: 0;
+    bottom: -9px;
+}
+
+ 
+
+.container-mr {
+    position: relative;
+}
+
+@media screen and (max-width: 680px) {
+    .register {
+        right: -24px;
+        bottom: -9px;
+    }
+}
